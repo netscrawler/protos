@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.4.0
 // - protoc             v5.27.1
-// source: proto/changeAPI/changeAPI.proto
+// source: changeAPI/changeAPI.proto
 
 package changeAPI_proto
 
@@ -106,5 +106,5 @@ var Converter_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "proto/changeAPI/changeAPI.proto",
+	Metadata: "changeAPI/changeAPI.proto",
 }

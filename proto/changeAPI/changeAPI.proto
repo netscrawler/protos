@@ -1,0 +1,24 @@
+syntax = "proto3";
+option go_package = "api/proto/changeAPI.proto";
+package api;
+
+
+message ConvertRequest {
+  uint32 amount = 1;
+  string target_currency = 2;
+}
+
+message ConvertResponse {
+  uint32 base_amount = 1;
+  uint32 converted_amount = 2;
+  string converted_currency = 3;
+  float rate = 4;
+}
+
+service Converter {
+
+  rpc Convert(ConvertRequest) returns (ConvertResponse) {
+
+  }
+}
+

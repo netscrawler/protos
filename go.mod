@@ -1,4 +1,4 @@
-module protos
+module github.com/netscrawler/protos
 
 go 1.22
 

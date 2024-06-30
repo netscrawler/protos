@@ -1,2 +1,2 @@
 # protos
- proto files and genfiles for use in ChangeApi
+ proto files and genfiles for use in ChangeApi.

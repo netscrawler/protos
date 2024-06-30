@@ -4,7 +4,7 @@
 // - protoc             v5.27.1
 // source: changeAPI/changeAPI.proto
 
-package changeAPI_proto
+package cnvrtv1
 
 import (
 	context "context"
@@ -19,7 +19,7 @@ import (
 const _ = grpc.SupportPackageIsVersion8
 
 const (
-	Converter_Convert_FullMethodName = "/api.Converter/Convert"
+	Converter_Convert_FullMethodName = "/cnvrt.Converter/Convert"
 )
 
 // ConverterClient is the client API for Converter service.
@@ -97,7 +97,7 @@ func _Converter_Convert_Handler(srv interface{}, ctx context.Context, dec func(i
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var Converter_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "api.Converter",
+	ServiceName: "cnvrt.Converter",
 	HandlerType: (*ConverterServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
